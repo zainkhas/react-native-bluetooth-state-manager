@@ -31,8 +31,8 @@ RCT_EXPORT_MODULE()
 -(instancetype)init{
   self = [super init];
   if(self){
-    cb = [[CBCentralManager alloc] initWithDelegate:nil queue:nil options:@{CBCentralManagerOptionShowPowerAlertKey: @NO}];
-    [cb setDelegate:self];
+    // cb = [[CBCentralManager alloc] initWithDelegate:nil queue:nil options:@{CBCentralManagerOptionShowPowerAlertKey: @NO}];
+    // [cb setDelegate:self];
   }
   return self;
 }
